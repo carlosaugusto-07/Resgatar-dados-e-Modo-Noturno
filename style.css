@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    transition: background-color 0.5s ease;
+}
+
+#buttonMode{ 
+        background-color: #007bff; 
+        border: none; 
+        color: white; 
+        padding: 8px 16px; 
+        font-size: 16px;
+        cursor: pointer;
+        border-radius: 8px; 
+        box-shadow: 0 4px 6px rgba(0, 123, 255, 0.1);
+        transition: background-color 0.3s, box-shadow 0.3s; 
+}
+
+#dado{
+    background-color: #007bff; 
+        border: none; 
+        color: white; 
+        padding: 8px 16px; 
+        font-size: 16px;
+        cursor: pointer;
+        border-radius: 8px; 
+        box-shadow: 0 4px 6px rgba(0, 123, 255, 0.1);
+        transition: background-color 0.3s, box-shadow 0.3s; 
+}
+#dado:hover {
+    background-color: #0056b3; 
+    box-shadow: 0 6px 8px rgba(0, 123, 255, 0.2); 
+}
+
+#quadrado{
+    background-color: #007bff; 
+        border: none; 
+        color: white; 
+        padding: 8px 16px; 
+        font-size: 16px;
+        cursor: pointer;
+        border-radius: 8px; 
+        box-shadow: 0 4px 6px rgba(0, 123, 255, 0.1);
+        transition: background-color 0.3s, box-shadow 0.3s; 
+}
+#quadrado:hover {
+    background-color: #0056b3; 
+    box-shadow: 0 6px 8px rgba(0, 123, 255, 0.2); 
+}
+
+#cubo{
+    background-color: #007bff; 
+        border: none; 
+        color: white; 
+        padding: 8px 16px; 
+        font-size: 16px;
+        cursor: pointer;
+        border-radius: 8px; 
+        box-shadow: 0 4px 6px rgba(0, 123, 255, 0.1);
+        transition: background-color 0.3s, box-shadow 0.3s; 
+}
+#cubo:hover {
+    background-color: #0056b3; 
+    box-shadow: 0 6px 8px rgba(0, 123, 255, 0.2); 
+}
+
+#buttonMode:hover {
+    background-color: #0056b3; 
+    box-shadow: 0 6px 8px rgba(0, 123, 255, 0.2); 
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.dark-mode {
+    background-color: #333;
+    color: #fff;
+}
+
+#toggle_button{
+    margin-right: 0%;
+}
+
+#div_principal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#results{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
